@@ -30,30 +30,30 @@
   
 
 
-#carouselExample {
-    height: 500px; 
+  #carouselExample {
+    height: 300px; 
+    background-color: gray;
+    
 }
 
 .carousel-item img {
     height: 100%; 
-    object-fit: cover; 
+    object-fit: contain; /* Ensure images maintain aspect ratio */
+    width: 100%; /* Make images fill the width */
 }
 
 .carousel {
-  height: 250px; 
-  
+    height: 300px; /* Ensure the carousel height is consistent */
 }
+
 .carousel-inner {
-  height: 100%; 
+    height: 100%; 
 }
+
 .carousel-item {
-  height: 100%; 
+    height: 100%; 
 }
-.carousel-item img {
-  height: 100%; 
-  object-fit: cover; 
-  width: 100%; 
-}
+
 
 .card {
   width: 600px;
@@ -249,7 +249,3 @@
   transform-origin: bottom left;
 }
 
-.hover-underline-animation.a{
-  text-decoration: none;
-
-}
