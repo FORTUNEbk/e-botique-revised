@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispatch Details</title>
+    <link rel="stylesheet" href="dispatch.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dispatch Details Form</h1>
+        <form action="/submit_dispatch" method="post" class="dispatch-form">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="address">Shipping Address:</label>
+            <textarea id="address" name="address" rows="4" placeholder="Enter your shipping address" required></textarea>
+
+            <!-- Dropdown for County Selection -->
+            <label for="county">County:</label>
+            <select id="county" name="county" required>
+                <option value="">Select County</option>
+                <option value="Baringo">Baringo</option>
+                <option value="Bomet">Bomet</option>
+                <option value="Bungoma">Bungoma</option>
+                <option value="Busia">Busia</option>
+                <option value="Elgeyo Marakwet">Elgeyo Marakwet</option>
+                <option value="Embu">Embu</option>
+                <option value="Garissa">Garissa</option>
+                <option value="Homa Bay">Homa Bay</option>
+                <option value="Isiolo">Isiolo</option>
+                <option value="Kajiado">Kajiado</option>
+                <option value="Kakamega">Kakamega</option>
+                <option value="Kericho">Kericho</option>
+                <option value="Kiambu">Kiambu</option>
+                <option value="Kilifi">Kilifi</option>
+                <option value="Kirinyaga">Kirinyaga</option>
+                <option value="Kisii">Kisii</option>
+                <option value="Kisumu">Kisumu</option>
+                <option value="Kitui">Kitui</option>
+                <option value="Kwale">Kwale</option>
+                <option value="Laikipia">Laikipia</option>
+                <option value="Lamu">Lamu</option>
+                <option value="Machakos">Machakos</option>
+                <option value="Makueni">Makueni</option>
+                <option value="Mandera">Mandera</option>
+                <option value="Marsabit">Marsabit</option>
+                <option value="Meru">Meru</option>
+                <option value="Migori">Migori</option>
+                <option value="Mombasa">Mombasa</option>
+                <option value="Murang'a">Murang'a</option>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Nakuru">Nakuru</option>
+                <option value="Nandi">Nandi</option>
+                <option value="Narok">Narok</option>
+                <option value="Nyamira">Nyamira</option>
+                <option value="Nyandarua">Nyandarua</option>
+                <option value="Nyeri">Nyeri</option>
+                <option value="Samburu">Samburu</option>
+                <option value="Siaya">Siaya</option>
+                <option value="Taita Taveta">Taita Taveta</option>
+                <option value="Tana River">Tana River</option>
+                <option value="Tharaka Nithi">Tharaka Nithi</option>
+                <option value="Trans Nzoia">Trans Nzoia</option>
+                <option value="Turkana">Turkana</option>
+                <option value="Uasin Gishu">Uasin Gishu</option>
+                <option value="Vihiga">Vihiga</option>
+                <option value="Wajir">Wajir</option>
+                <option value="West Pokot">West Pokot</option>
+            </select>
+
+            <label for="postalCode">Postal Code:</label>
+            <input type="text" id="postalCode" name="postalCode" placeholder="Enter your postal code" required>
+
+            <label for="deliveryMethod">Delivery Method:</label>
+            <select id="deliveryMethod" name="deliveryMethod" required>
+                <option value="">Select Delivery Method</option>
+                <option value="standard">Standard Shipping</option>
+                <option value="express">Express Shipping</option>
+            </select>
+
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes" rows="3" placeholder="Any special instructions (optional)"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

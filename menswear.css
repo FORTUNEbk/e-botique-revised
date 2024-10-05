@@ -120,3 +120,48 @@
 .price{
   color:red;
 }
+txt{
+  padding-left: 45%;
+  font-size: 20px;
+}
+/* From Uiverse.io by Cornerstone-04 */ 
+.custom-cards {
+  perspective: 500px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.custom-card {
+  width: 200px;
+  height: 250px;
+  background: #16161d;
+  border: 2px solid #555555;
+  border-radius: 4px;
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform .5s;
+}
+
+.custom-card:hover {
+  transform: translateZ(10px) rotateX(20deg) rotateY(20deg);
+}
+
+.custom-card-title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  transition: transform .5s;
+  font: 700 1.5rem monospace;
+  text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.custom-card:hover .custom-card-title {
+  transform: translateZ(50px);
+}
+/* From Uiverse.io by Cornerstone-04 */ 
