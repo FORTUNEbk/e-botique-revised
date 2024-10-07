@@ -56,16 +56,18 @@
 
 
 
-.card {
+/* General card container styling */
+.card-men {
   width: 600px;
   height: 300px;
   perspective: 1000px;
-  display:inline-block;
+  display: inline-block;
   margin-left: 40px;
   margin-top: 40px;
 }
 
-.card-inner {
+/* Inner card for the flipping effect */
+.card-men-inner {
   width: 100%;
   height: 100%;
   position: relative;
@@ -73,31 +75,36 @@
   transition: transform 0.999s;
 }
 
-.card:hover .card-inner {
+/* Flip the card on hover */
+.card-men:hover .card-men-inner {
   transform: rotateY(180deg);
 }
 
-.card-front,
-.card-back {
+/* Front and back of the card */
+.card-men-front,
+.card-men-back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
 
-.card-front {
-  background-color: #6A2C70;
-  color: #fff;
+/* Styling for the front side of the men's card */
+.card-men-front {
+  background-image:url('https://scontent-mba1-1.xx.fbcdn.net/v/t45.5328-4/461598926_1068401894894982_1964748515489474388_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=hhV57hbe6FQQ7kNvgFsN4cJ&_nc_ht=scontent-mba1-1.xx&_nc_gid=AZzgMZv1bhEurACZw4lcoBu&oh=00_AYA8pDd8aDdmgjztmBfZPOoQgiJ-Mt4yBPyGm-sgK8kKhg&oe=67099198');
+  color: black;
+  font-weight: bold;
   display: flex;
   align-items: center;
-  border: 10px solid #6A2C70;
+  border:none;
   border-radius: 10px;
   justify-content: center;
-  font-size: 24px;
+  font-size: 44px;
   transform: rotateY(0deg);
 }
 
-.card-back {
+/* Styling for the back side of the men's card */
+.card-men-back {
   background-color: #F08A5D;
   color: #fff;
   display: flex;
@@ -107,6 +114,240 @@
   justify-content: center;
   font-size: 24px;
   transform: rotateY(180deg);
+}
+
+/* CTA button styling for the men's card */
+.cta-men {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.cta-men:hover .hover-underline-animation {
+  text-decoration: underline;
+}
+
+/* General card container styling */
+.card-lady {
+  width: 600px;
+  height: 300px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+/* Inner card for the flipping effect */
+.card-lady-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+/* Flip the card on hover */
+.card-lady:hover .card-lady-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front and back of the card */
+.card-lady-front,
+.card-lady-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Styling for the front side of the lady's card */
+.card-lady-front {
+  background-image:url('https://media.burford.co.uk/images/SNY04089.jpg_edit.width-640_ln7jm6QxYVkHFHaT.jpg');
+  color: black;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 44px;
+  font-weight: bold;
+  transform: rotateY(0deg);
+}
+
+/* Styling for the back side of the lady's card */
+.card-lady-back {
+  background-color: #F08A5D;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #F08A5D;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+/* CTA button styling for the lady's card */
+.cta-lady {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.cta-lady:hover .hover-underline-animation {
+  text-decoration: underline;
+}
+
+/* General card container styling */
+.card-kids {
+  width: 600px;
+  height: 300px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+/* Inner card for the flipping effect */
+.card-kids-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+/* Flip the card on hover */
+.card-kids:hover .card-kids-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front and back of the card */
+.card-kids-front,
+.card-kids-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Styling for the front side of the kids' card */
+.card-kids-front {
+  background-image:url('https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/14/0563171/1.jpg?7943');
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border:none;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+/* Styling for the back side of the kids' card */
+.card-kids-back {
+  background-color: #F08A5D;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #F08A5D;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+/* CTA button styling for the kids' card */
+.cta-kids {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.cta-kids:hover .hover-underline-animation {
+  text-decoration: underline;
+}
+
+/* General card container styling */
+.card-shoes {
+  width: 600px;
+  height: 300px;
+  perspective: 1000px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+/* Inner card for the flipping effect */
+.card-shoes-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+/* Flip the card on hover */
+.card-shoes:hover .card-shoes-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front and back of the card */
+.card-shoes-front,
+.card-shoes-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Styling for the front side of the shoes card */
+.card-shoes-front {
+  background-image:url('https://people.com/thmb/_r0LA4TbA6CZjQJV0THFNwy3UFE=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(575x0:577x2):format(webp)/nick-cannon-5bf7d68f61634510a68aa15a399b28f8.jpg');
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border:none;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+/* Styling for the back side of the shoes card */
+.card-shoes-back {
+  background-color: #F08A5D;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #F08A5D;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+/* CTA button styling for the shoes card */
+.cta-shoes {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.cta-shoes:hover .hover-underline-animation {
+  text-decoration: underline;
 }
 
 .logo1{

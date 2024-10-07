@@ -307,5 +307,25 @@
   </div>
 </footer>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const cardTexts = document.querySelectorAll('.card-text');
+
+    cardTexts.forEach(text => {
+      text.addEventListener('click', function () {
+        if (text.style.whiteSpace === 'nowrap') {
+          text.style.whiteSpace = 'normal';
+          text.style.overflow = 'visible';
+          text.style.textOverflow = 'unset';
+        } else {
+          text.style.whiteSpace = 'nowrap';
+          text.style.overflow = 'hidden';
+          text.style.textOverflow = 'ellipsis';
+        }
+      });
+    });
+  });
+</script>
+
 </body>
 </html>

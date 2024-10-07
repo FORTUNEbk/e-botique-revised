@@ -206,4 +206,9 @@
 .custom-card:hover .custom-card-title {
   transform: translateZ(50px);
 }
-/* From Uiverse.io by Cornerstone-04 */ 
+.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
