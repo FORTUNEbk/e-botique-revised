@@ -212,3 +212,9 @@
   text-overflow: ellipsis;
   cursor: pointer;
 }
+.text{
+  background-color:yellow;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+}

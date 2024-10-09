@@ -240,26 +240,28 @@
 /* Styling for the front side of the kids' card */
 .card-kids-front {
   background-image:url('https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/14/0563171/1.jpg?7943');
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   border:none;
   border-radius: 10px;
   justify-content: center;
-  font-size: 24px;
+  font-size: 44px;
+  font-weight: bold;
   transform: rotateY(0deg);
 }
 
 /* Styling for the back side of the kids' card */
 .card-kids-back {
   background-color: #F08A5D;
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   border: 10px solid #F08A5D;
   border-radius: 10px;
   justify-content: center;
-  font-size: 24px;
+  font-size: 44px;
+  font-weight: bold;
   transform: rotateY(180deg);
 }
 
@@ -313,13 +315,14 @@
 /* Styling for the front side of the shoes card */
 .card-shoes-front {
   background-image:url('https://people.com/thmb/_r0LA4TbA6CZjQJV0THFNwy3UFE=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(575x0:577x2):format(webp)/nick-cannon-5bf7d68f61634510a68aa15a399b28f8.jpg');
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   border:none;
   border-radius: 10px;
   justify-content: center;
-  font-size: 24px;
+  font-size: 38px;
+  font-weight: bold;
   transform: rotateY(0deg);
 }
 
@@ -490,4 +493,10 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
+.text{
+  background-color:yellow;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  height: 110pxpx;
+}
