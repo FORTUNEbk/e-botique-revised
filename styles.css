@@ -91,7 +91,8 @@
 
 /* Styling for the front side of the men's card */
 .card-men-front {
-  background-image:url('https://scontent-mba1-1.xx.fbcdn.net/v/t45.5328-4/461598926_1068401894894982_1964748515489474388_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=hhV57hbe6FQQ7kNvgFsN4cJ&_nc_ht=scontent-mba1-1.xx&_nc_gid=AZzgMZv1bhEurACZw4lcoBu&oh=00_AYA8pDd8aDdmgjztmBfZPOoQgiJ-Mt4yBPyGm-sgK8kKhg&oe=67099198');
+  background-image:url('https://cdn.pixabay.com/photo/2020/06/26/14/46/india-5342927_1280.jpg');
+  background-size: contain;
   color: black;
   font-weight: bold;
   display: flex;
@@ -165,7 +166,8 @@
 
 /* Styling for the front side of the lady's card */
 .card-lady-front {
-  background-image:url('https://media.burford.co.uk/images/SNY04089.jpg_edit.width-640_ln7jm6QxYVkHFHaT.jpg');
+  background-image:url('https://images.unsplash.com/photo-1530816735136-2ea32281ba3f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: contain;
   color: black;
   display: flex;
   align-items: center;
@@ -239,7 +241,8 @@
 
 /* Styling for the front side of the kids' card */
 .card-kids-front {
-  background-image:url('https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/14/0563171/1.jpg?7943');
+  background-image:url('https://cdn.pixabay.com/photo/2016/11/29/09/19/baby-1868683_1280.jpg');
+  background-size: contain;
   color: black;
   display: flex;
   align-items: center;
