@@ -1,0 +1,64 @@
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(
+      0deg,
+      rgba(20, 167, 62, 1) 0%,
+      rgba(102, 247, 113, 1) 100%
+    );
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 6px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+  }
+  .card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  .card-img-top{
+    height: 300px;
+    object-fit: contain;
+  }
+  .card{
+    margin-top: 20px;
+  }
+
+  .footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* Light text color */
+    padding: 20px; /* Spacing around the content */
+    text-align: center; /* Centered text */
+}
+
+.footer-link {
+    text-decoration: none; /* No underline on links */
+    color: #ffc107; /* Light yellow link color */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.price{
+    color: red;
+  }
