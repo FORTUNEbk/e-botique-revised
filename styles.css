@@ -503,3 +503,60 @@
   text-align: center;
   height: 110pxpx;
 }
+/* General styles for the navbar */
+.navbar {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Brand name size */
+  font-weight: bold; /* Make brand name bold */
+  color: #333; /* Dark gray color for text */
+}
+
+.logo1 {
+  color: #007bff; /* Primary color for the first part of the logo */
+}
+
+.logo2 {
+  color: #6c757d; /* Secondary color for the second part of the logo */
+}
+
+.nav-link {
+  color: #555; /* Neutral dark gray for links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #007bff; /* Change color on hover */
+}
+
+.nav-item.dropdown .dropdown-menu {
+  background-color: #ffffff; /* White background for dropdown */
+  border: 1px solid #dee2e6; /* Subtle border */
+}
+
+.dropdown-item {
+  color: #555; /* Neutral dark gray for dropdown items */
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: #007bff; /* Change background on hover */
+  color: white; /* White text on hover */
+}
+
+.form-control {
+  border: 1px solid #ced4da; /* Subtle border */
+  border-radius: 0.25rem; /* Rounded corners */
+}
+
+.btn-outline-success {
+  color: #007bff; /* Primary color */
+  border-color: #007bff; /* Matching border */
+}
+
+.btn-outline-success:hover {
+  background-color: #007bff; /* Primary color on hover */
+  color: white; /* White text on hover */
+}
