@@ -505,7 +505,7 @@
 }
 /* General styles for the navbar */
 .navbar {
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: yellow; 
   padding: 1rem;
 }
 
@@ -560,3 +560,4 @@
   background-color: #007bff; /* Primary color on hover */
   color: white; /* White text on hover */
 }
+
