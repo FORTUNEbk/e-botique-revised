@@ -356,14 +356,7 @@
   text-decoration: underline;
 }
 
-.logo1{
-  color:blue;
-  font-weight: bold;
-}
-.logo2{
-  color:green;
-  font-style: italic;
-}
+
 
 /* Footer Styles */
 .footer {
@@ -503,29 +496,39 @@
   text-align: center;
   height: 110pxpx;
 }
-/* General styles for the navbar */
-.navbar {
-  background-color: yellow; 
-  padding: 1rem;
-}
 
-.navbar-brand {
-  font-size: 1.5rem; /* Brand name size */
-  font-weight: bold; /* Make brand name bold */
-  color: #333; /* Dark gray color for text */
+.d-flex {
+  margin-left: 40px;
 }
-
 .logo1 {
-  color: #007bff; /* Primary color for the first part of the logo */
+  color: #007bff; 
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .logo2 {
-  color: #6c757d; /* Secondary color for the second part of the logo */
+  color: #6c757d; 
+  font-style: italic;
+  font-weight: bold;
+}
+.bg-yellow {
+  background-color: yellow;
+  height: 90px;
+}
+.form-control{
+  width: 600px;
 }
 
 .nav-link {
-  color: #555; /* Neutral dark gray for links */
-  transition: color 0.3s; /* Smooth transition for hover effect */
+  display: flex; 
+  align-items: center;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.nav-link ion-icon {
+  font-size: 1.2em; /* Adjust icon size if needed */
+  margin-right: 5px; /* Space between icon and text */
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -546,11 +549,6 @@
   color: white; /* White text on hover */
 }
 
-.form-control {
-  border: 1px solid #ced4da; /* Subtle border */
-  border-radius: 0.25rem; /* Rounded corners */
-}
-
 .btn-outline-success {
   color: #007bff; /* Primary color */
   border-color: #007bff; /* Matching border */
@@ -561,6 +559,6 @@
   color: white; /* White text on hover */
 }
 
-
-
-
+.icon-close {
+  margin-right: 4px; /* Adjusts the space between icon and text */
+}
