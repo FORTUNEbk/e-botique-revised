@@ -45,19 +45,18 @@
   }
 
   .footer {
-    background-color: #343a40; /* Dark background */
-    color: #ffffff; /* Light text color */
-    padding: 20px; /* Spacing around the content */
-    text-align: center; /* Centered text */
+    background-color: #343a40; 
+    color: #ffffff; 
+    padding: 20px; 
+    text-align: center; 
 }
 
 .footer-link {
-    text-decoration: none; /* No underline on links */
-    color: #ffc107; /* Light yellow link color */
-}
+    text-decoration: none; 
+    color: #ffc107; 
 
 .footer-link:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 .price{
     color: red;
@@ -124,39 +123,39 @@
   }
   
   .nav-link ion-icon {
-    font-size: 1.2em; /* Adjust icon size if needed */
-    margin-right: 5px; /* Space between icon and text */
+    font-size: 1.2em; 
+    margin-right: 5px; 
   }
   
   .nav-link:hover, .nav-link:focus {
-    color: #007bff; /* Change color on hover */
+    color: #007bff; 
   }
   
   .nav-item.dropdown .dropdown-menu {
-    background-color: #ffffff; /* White background for dropdown */
-    border: 1px solid #dee2e6; /* Subtle border */
+    background-color: #ffffff; 
+    border: 1px solid #dee2e6; 
   }
   
   .dropdown-item {
-    color: #555; /* Neutral dark gray for dropdown items */
+    color: #555; 
   }
   
   .dropdown-item:hover, .dropdown-item:focus {
-    background-color: #007bff; /* Change background on hover */
-    color: white; /* White text on hover */
+    background-color: #007bff; 
+    color: white; 
   }
   
   .btn-outline-success {
-    color: #007bff; /* Primary color */
-    border-color: #007bff; /* Matching border */
+    color: #007bff; 
+    border-color: #007bff;
   }
   
   .btn-outline-success:hover {
-    background-color: #007bff; /* Primary color on hover */
-    color: white; /* White text on hover */
+    background-color: #007bff; 
+    color: white; 
   }
   
   .icon-close {
-    margin-right: 4px; /* Adjusts the space between icon and text */
+    margin-right: 4px; 
   }
   
